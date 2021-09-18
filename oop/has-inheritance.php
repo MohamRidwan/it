@@ -6,7 +6,7 @@ if(isset($_POST['simpan'])){
     <form action="" method="post">
 
         <?php
-    if (1) {
+    if ($no == 1) {
         ?>
         <center>
             <h3>Masukan Nilai Sisi Persegi</h3>
@@ -17,10 +17,11 @@ if(isset($_POST['simpan'])){
     }
     ?>
         <?php
-    else if(2) {
+    else if($no == 2) {
         ?>
         <center>
             <h3>Masukan Nilai Panjang Dan Lebar Persegi panjang</h3>
+            <input type="text" placeholder="Masukan Nilai Sisi"> 
             <input type="text" placeholder="Masukan Nilai Sisi"> 
             <input type="submit" name="kirim" Value= "kirim">  
         </center>
